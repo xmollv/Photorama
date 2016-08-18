@@ -2,7 +2,7 @@
 //  FlickerAPI.swift
 //  Photorama
 //
-//  Created by Xavi Moll Villalonga on 18/08/16.
+//  Created by Xavi Moll on 18/08/16.
 //  Copyright © 2016 Xavi Moll. All rights reserved.
 //
 
