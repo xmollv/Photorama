@@ -15,7 +15,7 @@ enum Method: String {
 struct FlickerAPI {
     
     private static let baseURLString = "https://api.flickr.com/services/rest"
-    private static let APIKey = "a​6​d​8​1​9​4​9​9​1​3​1​0​7​1​f​1​5​8​f​d​7​4​0​8​6​0​a​5​a​8​8​"
+    private static let APIKey = "4413d7cb9dfde772cfb54dce281cc5e3"
     
     private static func flickrURL(methid method: Method, parameters: [String:String]?) -> NSURL {
         let components = NSURLComponents(string: baseURLString)!
