@@ -1,5 +1,5 @@
 //
-//  FlickerAPI.swift
+//  FlickrAPI.swift
 //  Photorama
 //
 //  Created by Xavi Moll on 18/08/16.
@@ -21,7 +21,7 @@ enum FlickrError: ErrorType {
     case InvalidJSONData
 }
 
-struct FlickerAPI {
+struct FlickrAPI {
     
     private static let baseURLString = "https://api.flickr.com/services/rest"
     private static let APIKey = "4413d7cb9dfde772cfb54dce281cc5e3"

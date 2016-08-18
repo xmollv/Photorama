@@ -16,7 +16,7 @@ class PhotoStore {
     }()
     
     func fetchRecentPhotos(completion completion: (PhotosResult) -> Void) {
-        let url = FlickerAPI.recentPhotosURL()
+        let url = FlickrAPI.recentPhotosURL()
         let request = NSURLRequest(URL: url)
         let task = session.dataTaskWithRequest(request) {
             (data, response, error) -> Void in
@@ -32,6 +32,6 @@ class PhotoStore {
             return .Failure(error!)
         }
         
-        return FlickerAPI.photosFromJSONData(jsonData)
+        return FlickrAPI.photosFromJSONData(jsonData)
     }
 }
