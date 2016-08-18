@@ -14,6 +14,7 @@
 		4783B1011D66598D00890702 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1001D66598D00890702 /* PhotosViewController.swift */; };
 		4783B1031D66663400890702 /* FlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1021D66663400890702 /* FlickerAPI.swift */; };
 		4783B1051D666A4A00890702 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1041D666A4A00890702 /* PhotoStore.swift */; };
+		4783B1091D666FA700890702 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1081D666FA700890702 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4783B1001D66598D00890702 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		4783B1021D66663400890702 /* FlickerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerAPI.swift; sourceTree = "<group>"; };
 		4783B1041D666A4A00890702 /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		4783B1081D666FA700890702 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				471440151D66565D0016E919 /* AppDelegate.swift */,
 				4783B1001D66598D00890702 /* PhotosViewController.swift */,
 				4783B1021D66663400890702 /* FlickerAPI.swift */,
+				4783B1081D666FA700890702 /* Photo.swift */,
 				4783B1041D666A4A00890702 /* PhotoStore.swift */,
 				471440191D66565D0016E919 /* Main.storyboard */,
 				4714401C1D66565D0016E919 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				471440161D66565D0016E919 /* AppDelegate.swift in Sources */,
 				4783B1051D666A4A00890702 /* PhotoStore.swift in Sources */,
 				4783B1031D66663400890702 /* FlickerAPI.swift in Sources */,
+				4783B1091D666FA700890702 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
