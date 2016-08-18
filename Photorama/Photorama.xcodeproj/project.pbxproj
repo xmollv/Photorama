@@ -12,6 +12,7 @@
 		4714401D1D66565D0016E919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4714401C1D66565D0016E919 /* Assets.xcassets */; };
 		471440201D66565D0016E919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4714401E1D66565D0016E919 /* LaunchScreen.storyboard */; };
 		4783B1011D66598D00890702 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1001D66598D00890702 /* PhotosViewController.swift */; };
+		4783B1031D66663400890702 /* FlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1021D66663400890702 /* FlickerAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4714401F1D66565D0016E919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		471440211D66565D0016E919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4783B1001D66598D00890702 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		4783B1021D66663400890702 /* FlickerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				471440151D66565D0016E919 /* AppDelegate.swift */,
 				4783B1001D66598D00890702 /* PhotosViewController.swift */,
+				4783B1021D66663400890702 /* FlickerAPI.swift */,
 				471440191D66565D0016E919 /* Main.storyboard */,
 				4714401C1D66565D0016E919 /* Assets.xcassets */,
 				4714401E1D66565D0016E919 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				4783B1011D66598D00890702 /* PhotosViewController.swift in Sources */,
 				471440161D66565D0016E919 /* AppDelegate.swift in Sources */,
+				4783B1031D66663400890702 /* FlickerAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
