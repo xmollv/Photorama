@@ -36,7 +36,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rj0-uv-6Rm">
-                                                    <rect key="frame" x="8" y="8" width="74" height="74"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 </imageView>
                                                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="4c3-be-uQJ">
                                                     <rect key="frame" x="35" y="35" width="20" height="20"/>
@@ -46,13 +46,25 @@
                                         </view>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="rj0-uv-6Rm" firstAttribute="centerX" secondItem="THj-v4-Wjd" secondAttribute="centerX" id="24s-9r-kWC"/>
                                             <constraint firstItem="rj0-uv-6Rm" firstAttribute="leading" secondItem="THj-v4-Wjd" secondAttribute="leadingMargin" id="383-iu-N7k"/>
                                             <constraint firstAttribute="bottomMargin" secondItem="rj0-uv-6Rm" secondAttribute="bottom" id="9Fe-ez-f9g"/>
                                             <constraint firstItem="4c3-be-uQJ" firstAttribute="centerX" secondItem="THj-v4-Wjd" secondAttribute="centerX" id="A0m-tD-b58"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="rj0-uv-6Rm" secondAttribute="trailing" id="Dly-Rb-PhO"/>
+                                            <constraint firstItem="rj0-uv-6Rm" firstAttribute="centerY" secondItem="THj-v4-Wjd" secondAttribute="centerY" id="PD1-Rf-4GP"/>
+                                            <constraint firstItem="rj0-uv-6Rm" firstAttribute="height" secondItem="THj-v4-Wjd" secondAttribute="height" id="QLq-9H-F8a"/>
+                                            <constraint firstItem="rj0-uv-6Rm" firstAttribute="width" secondItem="THj-v4-Wjd" secondAttribute="width" id="TRp-Kl-bFK"/>
                                             <constraint firstItem="4c3-be-uQJ" firstAttribute="centerY" secondItem="THj-v4-Wjd" secondAttribute="centerY" id="bHi-IN-S4M"/>
                                             <constraint firstItem="rj0-uv-6Rm" firstAttribute="top" secondItem="THj-v4-Wjd" secondAttribute="topMargin" id="cQG-u4-UJ6"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="383-iu-N7k"/>
+                                                <exclude reference="9Fe-ez-f9g"/>
+                                                <exclude reference="Dly-Rb-PhO"/>
+                                                <exclude reference="cQG-u4-UJ6"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <outlet property="imageView" destination="rj0-uv-6Rm" id="Mch-1g-uHQ"/>
                                             <outlet property="spinner" destination="4c3-be-uQJ" id="Epg-00-VMf"/>
