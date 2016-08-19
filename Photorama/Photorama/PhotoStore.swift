@@ -19,6 +19,8 @@ enum PhotoError: ErrorType {
 
 class PhotoStore {
     
+    let coreDataStack = CoreDataStack(modelName: "Photorama")
+    
     let session: NSURLSession = {
         let config = NSURLSessionConfiguration.defaultSessionConfiguration()
         return NSURLSession(configuration: config)
