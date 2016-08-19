@@ -62,6 +62,9 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Photorama" id="B0f-9B-Tow"/>
+                    <connections>
+                        <outlet property="collectionView" destination="jl4-rO-dkP" id="ZyZ-O4-HdI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
