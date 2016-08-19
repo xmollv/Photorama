@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jl4-rO-dkP">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="2" id="8V0-RH-7Ac">
                                     <size key="itemSize" width="90" height="90"/>
@@ -76,7 +76,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jl4-rO-dkP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5IB-kd-0ho"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="jl4-rO-dkP" secondAttribute="bottom" id="H6X-Of-XXZ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jl4-rO-dkP" secondAttribute="bottom" id="LMx-cO-zG5"/>
+                            <constraint firstAttribute="trailing" secondItem="jl4-rO-dkP" secondAttribute="trailing" id="PNc-9d-Uaz"/>
                             <constraint firstItem="jl4-rO-dkP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UXP-Le-Zh8"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jl4-rO-dkP" secondAttribute="bottom" id="VSI-dm-sra"/>
                             <constraint firstItem="jl4-rO-dkP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="avL-Ia-opX"/>
@@ -84,13 +87,18 @@
                             <constraint firstItem="jl4-rO-dkP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ch1-Ks-OB5"/>
                             <constraint firstItem="jl4-rO-dkP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h8F-X9-ils"/>
                             <constraint firstAttribute="trailing" secondItem="jl4-rO-dkP" secondAttribute="trailing" id="xgr-0l-WuN"/>
+                            <constraint firstItem="jl4-rO-dkP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="y9m-I8-tUC"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="UXP-Le-Zh8"/>
                                 <exclude reference="avL-Ia-opX"/>
                                 <exclude reference="cfX-bh-u6O"/>
+                                <exclude reference="ch1-Ks-OB5"/>
                                 <exclude reference="h8F-X9-ils"/>
+                                <exclude reference="xgr-0l-WuN"/>
                                 <exclude reference="LMx-cO-zG5"/>
+                                <exclude reference="VSI-dm-sra"/>
                             </mask>
                         </variation>
                     </view>
