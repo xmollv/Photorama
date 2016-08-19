@@ -18,30 +18,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S5b-70-0wW">
-                                <rect key="frame" x="20" y="64" width="560" height="536"/>
-                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jl4-rO-dkP">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8V0-RH-7Ac">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UICollectionViewCell" id="THj-v4-Wjd">
+                                        <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="S5b-70-0wW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="YWI-Bd-VhH"/>
-                            <constraint firstItem="S5b-70-0wW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eA0-ei-Wxz"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="S5b-70-0wW" secondAttribute="bottom" id="hlp-yS-00D"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="S5b-70-0wW" secondAttribute="trailing" id="rHt-9u-cpb"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="S5b-70-0wW" secondAttribute="leading" id="wvB-zP-2IC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="S5b-70-0wW" secondAttribute="trailing" id="yuG-GU-Fbw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jl4-rO-dkP" secondAttribute="bottom" id="LMx-cO-zG5"/>
+                            <constraint firstItem="jl4-rO-dkP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UXP-Le-Zh8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jl4-rO-dkP" secondAttribute="bottom" id="VSI-dm-sra"/>
+                            <constraint firstItem="jl4-rO-dkP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="avL-Ia-opX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jl4-rO-dkP" secondAttribute="trailing" id="cfX-bh-u6O"/>
+                            <constraint firstItem="jl4-rO-dkP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ch1-Ks-OB5"/>
+                            <constraint firstItem="jl4-rO-dkP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h8F-X9-ils"/>
+                            <constraint firstAttribute="trailing" secondItem="jl4-rO-dkP" secondAttribute="trailing" id="xgr-0l-WuN"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="eA0-ei-Wxz"/>
-                                <exclude reference="rHt-9u-cpb"/>
+                                <exclude reference="avL-Ia-opX"/>
+                                <exclude reference="cfX-bh-u6O"/>
+                                <exclude reference="h8F-X9-ils"/>
+                                <exclude reference="LMx-cO-zG5"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Photorama" id="B0f-9B-Tow"/>
-                    <connections>
-                        <outlet property="imageView" destination="S5b-70-0wW" id="dfU-nD-Nxp"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
