@@ -28,15 +28,35 @@
                                     <inset key="sectionInset" minX="2" minY="2" maxX="2" maxY="2"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UICollectionViewCell" id="THj-v4-Wjd">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UICollectionViewCell" id="THj-v4-Wjd" customClass="PhotoCollectionViewCell" customModule="Photorama" customModuleProvider="target">
                                         <rect key="frame" x="2" y="66" width="90" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rj0-uv-6Rm">
+                                                    <rect key="frame" x="8" y="8" width="74" height="74"/>
+                                                </imageView>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="4c3-be-uQJ">
+                                                    <rect key="frame" x="35" y="35" width="20" height="20"/>
+                                                </activityIndicatorView>
+                                            </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="rj0-uv-6Rm" firstAttribute="leading" secondItem="THj-v4-Wjd" secondAttribute="leadingMargin" id="383-iu-N7k"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="rj0-uv-6Rm" secondAttribute="bottom" id="9Fe-ez-f9g"/>
+                                            <constraint firstItem="4c3-be-uQJ" firstAttribute="centerX" secondItem="THj-v4-Wjd" secondAttribute="centerX" id="A0m-tD-b58"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="rj0-uv-6Rm" secondAttribute="trailing" id="Dly-Rb-PhO"/>
+                                            <constraint firstItem="4c3-be-uQJ" firstAttribute="centerY" secondItem="THj-v4-Wjd" secondAttribute="centerY" id="bHi-IN-S4M"/>
+                                            <constraint firstItem="rj0-uv-6Rm" firstAttribute="top" secondItem="THj-v4-Wjd" secondAttribute="topMargin" id="cQG-u4-UJ6"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="rj0-uv-6Rm" id="Mch-1g-uHQ"/>
+                                            <outlet property="spinner" destination="4c3-be-uQJ" id="Epg-00-VMf"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>

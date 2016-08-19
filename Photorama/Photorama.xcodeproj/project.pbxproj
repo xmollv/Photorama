@@ -12,6 +12,7 @@
 		4714401D1D66565D0016E919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4714401C1D66565D0016E919 /* Assets.xcassets */; };
 		471440201D66565D0016E919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4714401E1D66565D0016E919 /* LaunchScreen.storyboard */; };
 		473AEF1A1D6796E0004AF0AE /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473AEF191D6796E0004AF0AE /* PhotoDataSource.swift */; };
+		473AEF1C1D679A24004AF0AE /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473AEF1B1D679A24004AF0AE /* PhotoCollectionViewCell.swift */; };
 		4783B1011D66598D00890702 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1001D66598D00890702 /* PhotosViewController.swift */; };
 		4783B1031D66663400890702 /* FlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1021D66663400890702 /* FlickerAPI.swift */; };
 		4783B1051D666A4A00890702 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1041D666A4A00890702 /* PhotoStore.swift */; };
@@ -26,6 +27,7 @@
 		4714401F1D66565D0016E919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		471440211D66565D0016E919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		473AEF191D6796E0004AF0AE /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		473AEF1B1D679A24004AF0AE /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		4783B1001D66598D00890702 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		4783B1021D66663400890702 /* FlickerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerAPI.swift; sourceTree = "<group>"; };
 		4783B1041D666A4A00890702 /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				4783B1021D66663400890702 /* FlickerAPI.swift */,
 				4783B1081D666FA700890702 /* Photo.swift */,
 				471440191D66565D0016E919 /* Main.storyboard */,
+				473AEF1B1D679A24004AF0AE /* PhotoCollectionViewCell.swift */,
 				4714401C1D66565D0016E919 /* Assets.xcassets */,
 				4714401E1D66565D0016E919 /* LaunchScreen.storyboard */,
 				471440211D66565D0016E919 /* Info.plist */,
@@ -150,6 +153,7 @@
 			files = (
 				4783B1011D66598D00890702 /* PhotosViewController.swift in Sources */,
 				471440161D66565D0016E919 /* AppDelegate.swift in Sources */,
+				473AEF1C1D679A24004AF0AE /* PhotoCollectionViewCell.swift in Sources */,
 				4783B1051D666A4A00890702 /* PhotoStore.swift in Sources */,
 				473AEF1A1D6796E0004AF0AE /* PhotoDataSource.swift in Sources */,
 				4783B1031D66663400890702 /* FlickerAPI.swift in Sources */,
