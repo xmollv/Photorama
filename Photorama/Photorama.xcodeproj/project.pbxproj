@@ -22,6 +22,8 @@
 		4783B1011D66598D00890702 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1001D66598D00890702 /* PhotosViewController.swift */; };
 		4783B1031D66663400890702 /* FlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1021D66663400890702 /* FlickerAPI.swift */; };
 		4783B1051D666A4A00890702 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4783B1041D666A4A00890702 /* PhotoStore.swift */; };
+		47966DE51D688CB600E8C600 /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47966DE41D688CB600E8C600 /* TagsViewController.swift */; };
+		47966DE71D688D1B00E8C600 /* TagsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47966DE61D688D1B00E8C600 /* TagsDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		4783B1001D66598D00890702 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		4783B1021D66663400890702 /* FlickerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerAPI.swift; sourceTree = "<group>"; };
 		4783B1041D666A4A00890702 /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		47966DE41D688CB600E8C600 /* TagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		47966DE61D688D1B00E8C600 /* TagsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				4783B1021D66663400890702 /* FlickerAPI.swift */,
 				473AEF281D67B6C9004AF0AE /* ImageStore.swift */,
 				471440191D66565D0016E919 /* Main.storyboard */,
+				47966DE41D688CB600E8C600 /* TagsViewController.swift */,
+				47966DE61D688D1B00E8C600 /* TagsDataSource.swift */,
 				473AEF1D1D67A1AF004AF0AE /* PhotoInfoViewController.swift */,
 				473AEF1B1D679A24004AF0AE /* PhotoCollectionViewCell.swift */,
 				4714401C1D66565D0016E919 /* Assets.xcassets */,
@@ -173,9 +179,11 @@
 				473AEF251D67A9B7004AF0AE /* Photo.swift in Sources */,
 				4783B1051D666A4A00890702 /* PhotoStore.swift in Sources */,
 				473AEF271D67ABD7004AF0AE /* CoreDataStack.swift in Sources */,
+				47966DE71D688D1B00E8C600 /* TagsDataSource.swift in Sources */,
 				473AEF1A1D6796E0004AF0AE /* PhotoDataSource.swift in Sources */,
 				473AEF241D67A9B7004AF0AE /* Photo+CoreDataProperties.swift in Sources */,
 				473AEF1E1D67A1AF004AF0AE /* PhotoInfoViewController.swift in Sources */,
+				47966DE51D688CB600E8C600 /* TagsViewController.swift in Sources */,
 				4783B1031D66663400890702 /* FlickerAPI.swift in Sources */,
 				473AEF291D67B6C9004AF0AE /* ImageStore.swift in Sources */,
 			);
