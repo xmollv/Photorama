@@ -33,4 +33,13 @@ class PhotoInfoViewController: UIViewController {
             }
         }
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ShowTags" {
+            let navController = segue.destinationViewController as! UINavigationController
+            let tagController = navController.topViewController as! TagsViewController
+            tagController.store = store
+            tagController.photo = photo
+        }
+    }
 }
